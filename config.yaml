@@ -10,7 +10,7 @@ threshold:
 hosts:
   - addr: 10.223.12.32
     webhook: <your-qw-webhook>
-    at: ["15686292523"]
+    at: ["your-phone-number"]
   - addr: 10.223.12.44
     webhook: <your-qw-webhook>
-    at: ["15686292523"]
+    at: ["your-phone-number"]
