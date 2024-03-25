@@ -1,0 +1,16 @@
+# 拉取数据的时间间隔
+interval:
+  disk: 10s
+  memory: 5m
+# 可用的阈值百分比, 小于该值告警
+threshold:
+  disk: 90
+  memory: 90
+# 监控的主机, 企微webhook地址, 艾特的人
+hosts:
+  - addr: 10.223.12.32
+    webhook: <your-qw-webhook>
+    at: ["15686292523"]
+  - addr: 10.223.12.44
+    webhook: <your-qw-webhook>
+    at: ["15686292523"]
